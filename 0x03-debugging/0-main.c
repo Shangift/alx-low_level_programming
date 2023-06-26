@@ -1,12 +1,12 @@
-#include <stdio.h>
-#include "positive_or_negative.h"
-
-int main() {
-    int num = 5;
-    if (positive_or_negative(num) == 1) {
-        printf("%d is positive\n", num);
-    } else {
-        printf("%d is negative\n", num);
-    }
-    return 0;
+#include "main.h"
+/**
+* main - Test function for positive or negative
+* Return: 0
+*/
+int main(void)
+{
+int i;
+i = 0;
+positive_or_negative(i);
+return (0);
 }
