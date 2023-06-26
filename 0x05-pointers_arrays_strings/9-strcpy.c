@@ -11,7 +11,7 @@ int l = 0;
 int x = 0;
 while (*(src + l) != '\0')
 {
-1++;
+l++;
 }
 for ( ; x < l ; x++)
 {
